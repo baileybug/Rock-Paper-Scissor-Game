@@ -17,6 +17,19 @@ body {
 	font-variant-emoji: text;
 }
 
+.animation {
+	border: none;
+	font-size: 8rem;
+	background: transparent;
+	margin: auto;
+	font-variant-emoji: text;
+}
+
+.result {
+	font-size: 2rem;
+	margin: auto;
+}
+
 button {
 	border: none;
 	font-size: 8rem;

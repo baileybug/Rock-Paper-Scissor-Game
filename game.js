@@ -17,9 +17,12 @@ document.addEventListener('DOMContentLoaded', function () {
         button.addEventListener('click', function () {
             const userChoice = button.id
             console.log('You chose: ', userChoice);
+            document.getElementById('user-choice').innerHTML = userChoice.toString();
+
             const randomChoice = Math.floor(Math.random() * computerOptions.length);
             const computerChoice = computerOptions[randomChoice].id;
-            console.log('Computer chose: ', computerChoice); 
+            console.log('Computer chose: ', computerChoice);
+            document.getElementById('computer-choice').innerHTML = computerChoice.toString();
 
             disableButtons();
         });
