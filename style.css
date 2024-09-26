@@ -11,6 +11,16 @@ body {
 	);
 }
 
+li {
+	list-style: none;
+	display: none;
+}
+
+li.active {
+	list-style: none;
+	display: grid;
+}
+
 .rps {
 	font-size: 8rem;
 	margin: auto;
